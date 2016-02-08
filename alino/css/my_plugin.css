@@ -1,0 +1,218 @@
+/*+++++++++++++++++=Slider=+++++++++++++++++++*/
+.ContentG_slider{
+	width:100%;
+	height: 100%;
+	margin:  auto;
+	position: relative;
+	overflow:hidden; 
+}
+.content_block_slider{
+	width: 3900px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.block_img{
+	width: 968px;
+	height: 100%;
+	position: relative;
+	float: left;
+	border-radius: 10px;
+}
+.block_img img{
+	width: 968px;
+	height: 100%
+}
+.btn_p_n{
+	width: 54px;
+	height: 54px;
+	border-radius: 54px;
+	line-height: 50px;
+	margin: 12% 4px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 110;
+	border-width: 1px;
+  border: solid 1px #d7e1e8;
+  background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(239,240,240) 40%, rgb(255,255,255) 90%);
+  background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(239,240,240) 40%, rgb(255,255,255) 90%);
+  background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(239,240,240) 40%, rgb(255,255,255) 90%);
+  opacity: 0.6;
+  text-align: center;
+}
+.btn_p_n img{
+	margin-top: 10px;
+}
+.btn_prev{
+  left:0px;
+}
+.btn_prev img{
+  margin-right:4px;
+}
+.btn_next{
+  right:0px;
+}
+.btn_next img{
+  margin-left:10px;
+}
+
+
+.ContentG_slider .nav {
+	width: 100px;
+	position: absolute;
+	text-align: center;
+	bottom: -10px; 
+	left: 435px;
+}
+.ContentG_slider .nav span {
+	opacity: 0.9;
+	background: #ccd1d5;
+	margin: 0 8px 0 0;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	overflow: hidden;
+	display: block;
+	float: left;
+	opacity: 0.6;
+	//box-shadow: 0 1px 2px #000;
+}
+.ContentG_slider .nav  .on {
+	background: #01bb4e !important;
+}
+/*+++++++++++++++++=And Slider=+++++++++++++++++++*/
+
+/*+++++++++++++++++=pop img catalogue=+++++++++++++++++++*/
+.bg_pop{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1100;
+	background-color:#000;
+	opacity:0.80;
+	top: 0;
+	left: 0;
+	//display: none;
+}
+.cadre_img {
+	width: 490px;
+	min-height: 300px;
+	max-height: 600px;
+	position:relative;
+	margin: -520px 250px;
+	position:fixed;
+	border: solid 2px #01bb4e; 
+	border-radius: 10px;
+	background-color: white !important;
+	display: none;
+	z-index: 1210;
+	text-align: center;
+	padding: 10px;
+}
+
+.cadre_img .content_cadre_img{
+	width: 60%;
+	height: 90%;
+	position: relative;
+	overflow:hidden;
+	margin: auto;
+}
+.cadre_img .content_cadre_img img{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.cadre_img .info_cadre_img{
+	width: 70%;
+	height: 8%;
+	margin: 1% auto;
+	text-align: center;
+}
+.cadre_img .info_cadre_img p{
+	font-size: 14px;
+	font-family: "Tahoma";
+  color: rgb( 31, 93, 125 );
+  margin-top: 10px;
+}
+.cadre_img .info_cadre_img p span{
+	//font-size: 14px;
+	font-weight: bold;
+	display: block;
+	color: #0188d6;
+}
+.hide_ci{
+	position:absolute;
+	top:-20px;
+	right:-20px;
+	color:red;
+	text-decoration:none;
+	text-align: center;
+	font-size:40px;
+	font-weight: bold;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50px;
+	border: solid 1px #ddd;
+}
+/*+++++++++++++++++=And pop img catalogue=+++++++++++++++++++*/
+
+/*+++++++++++++++++=pop how to order=+++++++++++++++++++*/
+.kadra{
+	width: 500px;
+	margin: 30px auto;
+	position: relative;
+}
+.text_info_how{
+	width: 490px;
+	min-height: 80px;
+	max-height: 600px;
+	position:relative;
+	margin: -180px 0px ;
+	position:fixed;
+	border: solid 2px #01bb4e; 
+	border-radius: 10px;
+	background-color: white !important;
+	display: none;
+	z-index: 1210;
+	text-align: center;
+	padding: 10px;
+}
+.text_info_how h3{
+	text-decoration: underline;
+	font-style: italic;
+}
+.text_info_how h4{
+	font-family: "Korinna";
+	font-size: 20px;
+	color: #0188d6;
+	margin-top: 10px !important;
+}
+#tinfh_i2{
+	margin-top: -300px !important;
+}
+#tinfh_i2 img{
+	width: 300px;
+	height: auto;
+
+}
+#tinfh_i3 h4{
+	margin-top: 10px !important;
+}
+#tinfh_i4 h4{
+	margin-top: 30px !important;
+	margin-bottom: 20px !important;
+}
+#tinfh_i4 p{
+margin-left: 60px;
+}
+.text_info_how p{
+	font-family: "Tahoma";
+	font-size: 16px;
+	color: rgb( 31, 93, 125 );
+	margin-top: 6px;
+	text-align: left;
+	padding-left: 35px;
+}

@@ -1,0 +1,8 @@
+.for-ie {display:block !important; margin:0; width:100%; min-height:300px; text-align:center;}
+.for-ie .logo-ie {display:block; margin:20px auto;}
+
+header, footer {display:none;}
+.container, .wrap-ie {display:none}
+
+.hdr-ie {background:#01639b; height:300px; width:100%; text-align:center; padding:30px;}
+.content-ie {background:#ffffff; padding:50px; width:100%; text-align:center}
